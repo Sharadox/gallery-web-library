@@ -1,6 +1,6 @@
 {
   "name": "@sharadox/gallery-web-library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Full-screen photo viewing for React: the behavior (keys, swipe, scroll lock, paging) and the controls, in each site's own design.",
   "private": false,
   "license": "SEE LICENSE IN LICENCA.md",
@@ -28,9 +28,7 @@
     "llms.txt",
     "CHANGELOG.md"
   ],
-  "sideEffects": [
-    "**/*.css"
-  ],
+  "sideEffects": false,
   "engines": {
     "node": ">=26"
   },
