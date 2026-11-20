@@ -1,0 +1,7 @@
+# @sharadox/gallery-web-library
+
+> Full-screen photo viewing for React: behavior and controls, styled by each site.
+
+- /lightbox: <Lightbox count index onChange(index | null, step) label labels={ close, previous, next } classNames={ lightbox, control?, close, previous, next } strokes?={ close?, chevron? }>{(index, direction) => figure}</Lightbox> — click outside, Escape or close closes; chevrons, swipe (> 50 px) and arrow keys page (wrapping) when count > 1; locks page scroll (data-lenis-prevent); motion fade; render it in a portal to draw above everything
+- Depends on motion and @sharadox/icon-web-library. Peer: react. License: Sharadox Open Source License 0.1.0
+- Changes by version: CHANGELOG.md (in the package)
