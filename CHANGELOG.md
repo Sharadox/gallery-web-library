@@ -2,6 +2,10 @@
 
 What changed in each version of `@sharadox/gallery-web-library`, newest first.
 
+## 0.1.2
+
+Uses motion 14 (no change to the animations).
+
 ## 0.1.1
 
 No side effects declared (the package ships no stylesheets), so bundlers drop what isn't used.
